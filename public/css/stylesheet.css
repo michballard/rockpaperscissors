@@ -1,0 +1,98 @@
+body {
+	font-family: Georgia, serif;
+	text-align: left }
+h1 {
+	color: rgb(255,255,255); 
+	font-variant: small-caps; 
+	font-size: 400%; 
+	background-color: rgb(32,32,32); 
+	padding: 50px;
+	margin: -10px }
+h2 {
+	font-size: 150%; 
+	color: rgb(32,32,32);
+	margin-left: 50px }
+button.pick {
+	border: solid 10px;
+	border-color:rgb(32,32,32);
+	color: rgb(255,255,255); 
+	font-family: Georgia, serif;
+	font-size: 300%; 
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 3px 2px rgb(0,0,0);
+	height: 300px; 
+	width: 300px; 
+	margin-right: 25px }
+button#rock {
+	 background:url('../images/rock.jpg');
+	 background-repeat:no-repeat;
+	}
+button#paper {
+	 background:url('../images/paper.jpg');
+	 background-repeat:no-repeat;
+	}
+button#scissors {
+	 background:url('../images/scissor.jpg');
+	 background-repeat:no-repeat;
+	}
+button {
+	background-color: rgb(32,32,32); 
+	border: solid 10px; 
+	border-color: rgb(32,32,32);
+	color: rgb(255,255,255); 
+	font-family: Georgia, serif;
+	font-size: 150%; 
+	height: 125px; 
+	width: 285px; 
+	text-align: left;
+	padding: 20px;
+	margin-right: 25px }
+img {
+	border: solid 8px;
+	border-color:rgb(32,32,32);
+	color: rgb(255,255,255); 
+	font-family: Georgia, serif;
+	font-size: 300%; 
+	font-weight: bold;
+	text-align: center;
+	width: 150px;
+	margin-left: 50px}
+img#draw {
+	width: 300px }
+input#register-player { 
+	font-family: Georgia, serif; 
+	height: 75px; 
+	width: 600px; 
+	font-size: 200%; 
+	background-color: #E0E0E0; 
+	border: 0px; 
+	padding: 20px; 
+	text-align: left }
+input:focus {
+	background-color: white }
+p {	
+	font-size: 120%;
+	margin-top: 30px; 
+	margin-right: 50px;
+	margin-bottom: 30px;
+	margin-left: 50px } 
+div {
+	margin-top: 15px; 
+	margin-right: 10px;
+	margin-bottom: 15px;
+	margin-left: 10px }
+a { 
+	color: rgb(32,32,32) }
+a:link {
+  text-decoration: none }
+a:visited {
+  text-decoration: none }
+a:hover {
+  text-decoration: underline }
+a:active {
+  text-decoration: underline }
+span#lost {
+	color: red }
+span#won {
+	color: green }

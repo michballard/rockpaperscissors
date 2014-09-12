@@ -1,0 +1,13 @@
+
+<h2>Welcome <%= @player%></h2>
+<h2>Make your move:</h2>
+
+<form action="/result" method="POST">
+	<p>
+		<button id="rock" class="pick" name="pick" value="Rock">Rock</button>
+		<button id="paper" class="pick" name="pick" value="Paper">Paper</button>
+		<button id="scissors" class="pick" name="pick" value="Scissors">Scissors</button>
+	</p>
+	<input type="hidden" name="name" value=<%=@name%>>
+</form>
+  

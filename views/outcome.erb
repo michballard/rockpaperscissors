@@ -1,0 +1,26 @@
+<% if @game.winner == "Draw" %>
+	<h2>It was a draw</h2>
+<% elsif @game.winner.name == "computer" %>
+	<h2>You <span id="lost">lost</span>, the computer won with <%= @game.winner.pick %></h2>
+<% else %>
+	<h2>You <span id="won">won</span>, with <%= @game.winner.pick %></h2>
+<%end%>
+
+<% if @game.winner == "Draw" %>
+	<img id="draw" src="/images/draw.jpg">
+<% elsif @game.winner.pick == "Rock" %>
+	<img src="/images/rockscissors.jpg">
+<% elsif @game.winner.pick == "Paper" %>
+	<img src="/images/rockpaper.jpg" >
+<% elsif @game.winner.pick == "Scissors" %>
+	<img src="/images/scissorspaper.jpg" >
+<% end %>
+
+<form action="/play">
+	<p>
+	  <button type="submit" id="play-again"><strong>Play again</strong></button>
+	</p>
+</form>
+<p>
+	<a href="/"><strong>Start new player</strong></button>
+</p>
