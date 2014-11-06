@@ -5,6 +5,12 @@ Rock Paper Scissors
 ===================
 The aim of this challenge is to develop a website that replicates the game rock paper scissors. This was built using Sinatra and deployed with Heroku.  
 
+<strong>Screenshots</strong> 
+![Screenshot 1](https://github.com/michballard/rockpaperscissors/blob/master/images/screenshot1.png)
+![Screenshot 2](https://github.com/michballard/rockpaperscissors/blob/master/images/screenshot2.png)
+![Screenshot 3](https://github.com/michballard/rockpaperscissors/blob/master/images/screenshot3.png)
+
+
 How to view it
 --------------
 Staging app:
