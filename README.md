@@ -1,6 +1,8 @@
 | [Makers Academy](http://www.makersacademy.com) | Week 5 | Friday Challenge |
 | ------ | ------ | ------ |
 
+<a href="https://codeclimate.com/repos/5460ec57695680202f0116b0/feed"><img src="https://codeclimate.com/repos/5460ec57695680202f0116b0/badges/e294c29c1c0f3aed5443/gpa.svg" /></a>
+
 Rock Paper Scissors
 ===================
 The aim of this challenge is to develop a website that replicates the game rock paper scissors. This was built using Sinatra and deployed with Heroku.  
